@@ -10,7 +10,7 @@ execfile(activate_this_file, dict(__file__=activate_this_file))
 sys.path.insert(0, "/home/b/boocomp/f1new/public_html")
 
 # Switch to the directory of your project. (Optional.)
-os.chdir("/home/b/boocomp/f1new/public_html/f1new")
+os.chdir("/home/b/boocomp/f1new/public_html/f1new/app")
 
 # WSGI expects application variable
 from agart import app as application
